@@ -23,7 +23,7 @@ export function App() {
       <Spacer ml={4} />
       <Breadcrumb separator='-'>
         <BreadcrumbItem>
-        <BreadcrumbLink href='/' fontSize={['sm', 'md', 'lg']}>Incio</BreadcrumbLink>
+        <Link to='/' fontSize={['sm', 'md', 'lg']}>Incio</Link>
       </BreadcrumbItem>
 
       <BreadcrumbItem>
@@ -31,11 +31,11 @@ export function App() {
       </BreadcrumbItem>
 
       <BreadcrumbItem>
-        <BreadcrumbLink href='/entretenimiento' fontSize={['sm', 'md', 'lg']}>Entretenimiento</BreadcrumbLink>
+        <Link to='/entretenimiento' fontSize={['sm', 'md', 'lg']}>Entretenimiento</Link>
       </BreadcrumbItem>
 
       <BreadcrumbItem>
-        <BreadcrumbLink href='/negocios' fontSize={['sm', 'md', 'lg']}>Negocios</BreadcrumbLink>
+        <Link to='/negocios' fontSize={['sm', 'md', 'lg']}>Negocios</Link>
         </BreadcrumbItem>
       </Breadcrumb>
     </Box>
