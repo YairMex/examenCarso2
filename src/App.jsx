@@ -1,5 +1,5 @@
 import { Box, Spacer, Image, Breadcrumb, BreadcrumbItem, BreadcrumbLink } from '@chakra-ui/react';
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 import { ListaNoticias } from './componentes/ListaNoticias';
 import { NoticiasEconomia } from './componentes/NoticiasEconomia';
@@ -27,7 +27,7 @@ export function App() {
       </BreadcrumbItem>
 
       <BreadcrumbItem>
-        <BreadcrumbLink href='/economia' fontSize={['sm', 'md', 'lg']}>Economía</BreadcrumbLink>
+        <Link to='/economia' fontSize={['sm', 'md', 'lg']}>Economía</Link>
       </BreadcrumbItem>
 
       <BreadcrumbItem>
