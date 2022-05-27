@@ -21,7 +21,7 @@ export function NegociosItem(cont){
                   Por: {cont.provider[0].name}
                 </Text>
                 <Spacer ml={4} />
-                <Image src={cont.image.thumbnail.contentUrl} width={100} height={100}/>
+                <Image src={cont.image} width={100} height={100}/>
               </Flex>
               <Flex align="center">
                 <Icon as={HiCalendar} color='gray.500'></Icon>
