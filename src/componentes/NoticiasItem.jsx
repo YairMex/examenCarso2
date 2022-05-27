@@ -34,9 +34,9 @@ export function NoticiaItem(cont){
               <Text fontSize='sm' noOfLines={2} color='blue.500'>
                 {cont.description}
               </Text>
-              <Link to={`/noticia/${cont.url}`}>
+              <a href={`${cont.url}`} target='_blank'>
                 <Button mt={2} colorScheme='purple'>Ver más...</Button>
-              </Link>
+              </a>
               
           </Box>
     )
